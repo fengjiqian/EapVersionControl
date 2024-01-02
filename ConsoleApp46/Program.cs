@@ -22,6 +22,11 @@ namespace ConsoleApp46
     {
         static void Main(string[] args)
         {
+
+
+            new MessageService();
+
+
             Dictionary<string, string>? eqpName_version = new Dictionary<string, string>();
 
             Timer timer = new Timer(doUpdate, null, TimeSpan.Zero, TimeSpan.FromMinutes(10));
