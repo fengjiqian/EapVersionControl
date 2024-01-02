@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using log4net.Config;
+using Newtonsoft.Json;
 using System.Linq;
 
 namespace ConsoleApp46
@@ -22,6 +23,9 @@ namespace ConsoleApp46
     {
         static void Main(string[] args)
         {
+            XmlConfigurator.Configure(new FileInfo("log4net.config"));
+
+
 
 
             new MessageService();
