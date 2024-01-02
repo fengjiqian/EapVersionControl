@@ -27,9 +27,9 @@ namespace ConsoleApp46
             new MessageService();
 
 
-            Dictionary<string, string>? eqpName_version = new Dictionary<string, string>();
+            //Dictionary<string, string>? eqpName_version = new Dictionary<string, string>();
 
-            Timer timer = new Timer(doUpdate, null, TimeSpan.Zero, TimeSpan.FromMinutes(10));
+            //Timer timer = new Timer(doUpdate, null, TimeSpan.Zero, TimeSpan.FromMinutes(10));
 
             while (true) Console.ReadLine();
         }

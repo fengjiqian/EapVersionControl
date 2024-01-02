@@ -47,7 +47,7 @@ namespace ConsoleApp46
             //bus.Subscribe<MachineIpChangeEvent>("EAPClientManager.MachineIpChangeEvent", OnMachineIpChange, "#");
 
 
-            bus.Subscribe<MachineStateChangeEvent>("EAPClientManager.StateChangeEvent", HandleStateChangeEvent, "#");
+            bus.Subscribe<MachineStateChangeEvent>("EapVersionControl.StateChangeEvent", HandleStateChangeEvent, "#");
 
         }
 
